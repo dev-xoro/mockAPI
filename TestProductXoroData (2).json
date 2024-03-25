@@ -1,0 +1,41 @@
+{
+    "modelLink": "https://drive.usercontent.google.com/u/0/uc?id=1-Rz9FE9KI6ynx_KBnoVwjd-6qlBz8fWI&export=download",
+    "backgroundLink": "https://drive.usercontent.google.com/u/0/uc?id=1-Rz9FE9KI6ynx_KBnoVwjd-6qlBz8fWI&export=download",
+    "stories": [
+        {
+            "name": "Visualize",
+            "animationType": "Front",
+            "audio": "link0",
+            "storylines": [
+                {
+                    "name": "callout 1",
+                    "animationType": "Left",
+                    "audio": "link0.1"
+                },
+                {
+                    "name": "callout 2",
+                    "animationType": "Right",
+                    "audio": "link0.2"
+                }
+                
+            ]
+        },
+        {
+            "name": "Examine",
+            "animationType": "Front",
+            "audio": "link1",
+            "storylines": [
+                {
+                    "name": "callout 3",
+                    "animationType": "Back",
+                    "audio": "link1.1"
+                },
+                {
+                    "name": "callout 4",
+                    "animationType": "Front",
+                    "audio": "link1.2"
+                }
+            ]
+        }
+    ]
+}
