@@ -1,40 +1,172 @@
 {
-    "modelLink": "https://drive.usercontent.google.com/u/0/uc?id=1-Rz9FE9KI6ynx_KBnoVwjd-6qlBz8fWI&export=download",
-    "backgroundLink": "https://drive.usercontent.google.com/u/0/uc?id=1-Rz9FE9KI6ynx_KBnoVwjd-6qlBz8fWI&export=download",
+    "projectName": "Astra Breast Cancer",
     "stories": [
         {
-            "name": "Visualize",
-            "animationType": "Front",
-            "audio": "link0",
+            "name": "Stage 0",
+            "animationType": "",
             "storylines": [
                 {
-                    "name": "callout 1",
-                    "animationType": "Left",
-                    "audio": "link0.1"
-                },
-                {
-                    "name": "callout 2",
-                    "animationType": "Right",
-                    "audio": "link0.2"
+                    "name": "Tis",
+                    "description": "A stage 0 tumor is a non-invasive carcinoma in situ (Cis/Tis). The neighboring lymph nodes are not affected (N0). There are also no distant metastases (M0).",
+                    "animationType": ""
                 }
                 
             ]
         },
         {
-            "name": "Examine",
-            "animationType": "Front",
-            "audio": "link1",
+            "name": "Stage I",
+            "animationType": "",
             "storylines": [
                 {
-                    "name": "callout 3",
-                    "animationType": "Back",
-                    "audio": "link1.1"
+                    "name": "T1N0M0",
+                    "description": "In stage I, the tumor is no larger than 2 cm (T1). The neighboring lymph nodes are not affected (N0, stage IA) or they are so-called micrometastases (< 2 mm, N1mi, stage IB). There are no distant metastases (M0).",
+                    "animationType": ""
+                }
+                
+            ]
+        },
+        {
+            "name": "Stage IIA",
+            "animationType": "",
+            "storylines": [
+                {
+                    "name": "T0N1M0",
+                    "description": "There is no detectable tumor (T0), but the disease has already affected individual lymph nodes in the armpit (N1). There are no distant metastases (M0).",
+                    "animationType": ""
                 },
                 {
-                    "name": "callout 4",
-                    "animationType": "Front",
-                    "audio": "link1.2"
+                    "name": "T1N1M0",
+                    "description": "The tumor is up to 2 cm in size (T1), and individual lymph nodes in the armpit have already been affected (N1). There are no distant paltases (M0).",
+                    "animationType": ""
+                },
+                {
+                    "name": "T2N0M0",
+                    "description": "If the tumor is between 2 and 5 cm in size (T2), the disease is classified as stage IIA even without involvement of lymph nodes (N0) or distant metastases (M0).",
+                    "animationType": ""
                 }
+            ]
+        },
+        {
+            "name": "Stage IIB",
+            "animationType": "",
+            "storylines": [
+                {
+                    "name": "T2N1M0",
+                    "description": "The tumor is larger than 2 cm, but no more than 5 cm in size (T2). The disease has already affected individual lymph nodes in the armpit (N1). There are no distant metastases (M0).",
+                    "animationType": ""
+                },
+                {
+                    "name": "T3N0M0",
+                    "description": "If the tumor is larger than 5 cm (T3), the disease is classified as stage IIB even without involvement of lymph nodes (N0) or distant metastases (M0).",
+                    "animationType": ""
+                }
+                
+            ]
+        },
+        {
+            "name": "Stage IIIA",
+            "animationType": "",
+            "storylines": [
+                {
+                    "name": "T0N2M0",
+                    "description": "There is no detectable tumor (T0), but lymph nodes in the armpit or near the breast are increasingly affected by cancer (N2). There are no distant metastases (M0).",
+                    "animationType": ""
+                },
+                {
+                    "name": "T1N2M0",
+                    "description": "The tumor has a maximum size of 2 cm (T1) and the cancer has increasingly affected lymph nodes in the armpit or near the breast (N2). There are no distant metastases (M0).",
+                    "animationType": ""
+                },
+                {
+                    "name": "T2N2M0",
+                    "description": "The tumor is 2 - 5 cm in size (T2) and lymph nodes in the armpit or near the breast are increasingly affected by cancer (N2). There are no distant metastases (M0).",
+                    "animationType": ""
+                },
+                {
+                    "name": "T3N1M0",
+                    "description": "The tumor is larger than 5 cm (T3). However, only a few surrounding lymph nodes are affected (N1). There are no distant metastases (M0).",
+                    "animationType": ""
+                },
+                {
+                    "name": "T3N2M0",
+                    "description": "The tumor is larger than 5 cm (T3). Lymph nodes in the armpit or near the breast are also increasingly affected (N2). There are no distant metastases (M0).",
+                    "animationType": ""
+                }
+            ]
+        },
+        {
+            "name": "Stage III B",
+            "animationType": "",
+            "storylines": [
+                {
+                    "name": "T4N0M0",
+                    "description": "T4 means that the tumor has already spread to the chest wall or skin. However, lymph nodes are not affected (N0) and distant metastases cannot be detected (M0).",
+                    "animationType": ""
+                },
+                {
+                    "name": "T4N1M0",
+                    "description": "The tumor has affected the chest wall or skin (T4), and individual surrounding lymph nodes have also been affected (N1). However, there are no distant metastases (M0).",
+                    "animationType": ""
+                },
+                {
+                    "name": "T4N2M0",
+                    "description": "The tumor has affected the chest wall or skin (T4), and lymph nodes in the armpit or near the breast have also been increasingly affected (N2). However, there are no distant metastases (M0).",
+                    "animationType": ""
+                }
+            ]
+        },
+        {
+            "name": "Stage III C",
+            "animationType": "",
+            "storylines": [
+                {
+                    "name": "T0N3M0",
+                    "description": "There is no detectable tumor (T0), but many lymph nodes in the armpit, near the breast or along the internal thoracic artery are affected by cancer (N3). There are no distant metastases (M0).",
+                    "animationType": ""
+                },
+                {
+                    "name": "T1N3M0",
+                    "description": "The tumor is a maximum of 2 cm in size (T1). Many lymph nodes in the armpit, near the breast or along the internal thoracic artery are affected by cancer (N3). However, there are no distant metastases (M0).",
+                    "animationType": ""
+                },
+                {
+                    "name": "T2N3M0",
+                    "description": "The tumor is 2 - 5 cm in size (T2) and many lymph nodes in the armpit, near the breast or along the internal thoracic artery are affected by cancer (N3). There are no distant metastases (M0).",
+                    "animationType": ""
+                },
+                {
+                    "name": "T3N3M0",
+                    "description": "The tumor is larger than 5 cm (T3), and many lymph nodes in the armpit, near the breast or along the internal thoracic artery are affected by cancer (N3). There are no distant metastases (M0).",
+                    "animationType": ""
+                },
+                {
+                    "name": "T4N3M0",
+                    "description": "The tumor has affected the chest wall or skin (T4), and many lymph nodes in the armpit, near the breast or along the internal thoracic artery are affected (N3). There are no distant metastases (M0).",
+                    "animationType": ""
+                }
+            ]
+        },
+        {
+            "name": "Stage IV",
+            "animationType": "",
+            "storylines": [
+                {
+                    "name": "every T;every N;M1",
+                    "description": "As soon as distant metastases are present (M1), the disease is assigned to stage IV. The tumor itself can be of any size (T1-T4) or undetectable (T0). Likewise, the lymph nodes in the armpit, near the chest or along the internal thoracic artery may be affected (N1-N3) or not (N0).",
+                    "animationType": ""
+                }
+            ]
+        },
+        {
+            "name": "Stage IV-plus",
+            "animationType": "",
+            "storylines": [
+                {
+                    "name": "every T;every N;M1bra",
+                    "description": "If distant metastases are present (M1/M1bra), the disease is classified as stage IV. The addition “bra” means that they are located in the brain. The tumor itself can be of any size (T1-T4) or undetectable (T0). Likewise, the lymph nodes in the armpit, near the chest or along the internal thoracic artery may be affected (N1-N3) or not (N0).",
+                    "animationType": ""
+                }
+                
             ]
         }
     ]
